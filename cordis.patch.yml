@@ -1,0 +1,5 @@
+# @dsh-local/notify 组合包自带的配置层。
+# 被 profile 的 dsh.profile.bundles 引用后应用；行按包名解析（Node 模块解析）。
+- insert:
+    - id: notify
+      name: '@dsh-local/notify'
